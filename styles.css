@@ -1,0 +1,89 @@
+body
+{
+    margin: 0;
+}
+
+.startTitle
+{
+    
+    background-color: #36558F;
+    margin-left: -10px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    border-radius: 0 20px 20px 0;
+    padding: 20px;
+    padding-left: 30px;
+    width: 80%;
+    box-shadow: 4px 4px 4px rgb(0 0 0 / 25%);
+}
+
+.startTitle p
+{
+    font-family: "Oswald";
+    font-weight: 500;
+    color: white;
+    font-size: 30px;
+    margin: 0;
+
+}
+
+.roleContainer
+{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.roleDiv
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.roleDiv p
+{
+    line-height: 120%;
+    font-family: "Oswald";
+    font-weight: 500;
+    color: black;
+    font-size: 20px;
+    margin: 0;
+    text-align: center;
+}
+
+.roleImg img
+{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    height: 50vh;
+}
+
+.buttonContainer
+{
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.buttonContainer button
+{
+    background-color: #36558F;
+    height: 70px;
+    border: none;
+    border-radius: 20px;
+    padding: 5px 50px;
+    box-shadow: 4px 4px 4px rgb(0 0 0 / 25%);
+}
+
+.buttonContainer p
+{
+    font-family: "Oswald";
+    font-weight: 500;
+    color: white;
+    font-size: 30px;
+    margin: 0;
+}
