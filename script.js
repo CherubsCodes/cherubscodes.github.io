@@ -46,5 +46,5 @@ var startDiv = document.getElementById("start");
 
 function startGame()
 {
-    startDiv.style.display = "none";
+    location.reload();
 }
